@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Project Title: INST377_Final_Project
+
+# Description of Project: This is a webpage that will allow users to figure out the best places to travel on vacation based on the weather. Multiple factors will be taken into account ranging from UV Index, Precipitation, Temperature, & more. 
+
+# Target Browsers: This project aims to target anyone using their browser on their computer.
+
+# Link to Dev Manual: [Here](DEVELOPER.md)
