@@ -1,38 +1,55 @@
-.App {
+/* Global Styling */
+
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Nav Styling */
+
+.nav a{
+  color: rgb(230, 6, 6);
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav{
+   display: flex;
+   justify-content: center;
+   gap: 5rem;
+   background-color: bisque;
+   padding: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Home Page */
+
+.homePage{
+  background-color: #c19e74;
+  height: 1000px;
 }
 
-.App-link {
-  color: #61dafb;
+.homePage h1{
+  padding-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homePage p{
+  padding: 10px;
+  font-size: large;
 }
+
+#pictures{
+  width: 612px;
+  height: 612px;
+}
+
+.pictures{
+  margin: auto;
+}
+
+/* About Page */
+
+
+
+/* Project Page */

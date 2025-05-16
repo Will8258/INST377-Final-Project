@@ -7,16 +7,16 @@ import './App.css'
 function App() {
   return (
     <Router>
-      <nav style={{ display: 'flex', gap: '1rem', padding: '1rem' }}>
+      <nav className="nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/projects">Project</Link>
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/projects" element={<Projects/>} />
       </Routes>
     </Router>
   );
