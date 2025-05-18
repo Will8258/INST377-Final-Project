@@ -18,7 +18,7 @@ function getPictures(){
 
             container: document.getElementById('pictures'),
             transitionTime:1,
-            delay:3.5
+            delay:4.5
 
         })
 

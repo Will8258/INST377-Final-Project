@@ -26,7 +26,7 @@
 /* Home Page */
 
 .homePage{
-  background-color: #c19e74;
+  background-color: #d2b898;
   height: 1000px;
 }
 
@@ -50,6 +50,26 @@
 
 /* About Page */
 
+.About{
+  background-color: antiquewhite;
+  height: 1000px;
+}
 
+#explanation{
+  padding-top: 40px;
+}
 
 /* Project Page */
+
+.project{
+  background-color: blanchedalmond;
+  height: 1000px;
+}
+
+#projectExplained{
+  padding-top: 40px;
+}
+
+#cityInput{
+  margin-top: 40px;
+}

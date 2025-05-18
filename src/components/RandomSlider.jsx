@@ -3,8 +3,6 @@ import getPictures from '../utils/PictureLogic';
 
 function PictureSlider(){
 
-    const [image, setImage] = useState('')
-
     useEffect(() => {
         getPictures()
     }, [])
